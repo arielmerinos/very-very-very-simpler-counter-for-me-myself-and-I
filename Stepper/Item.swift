@@ -11,8 +11,10 @@ import SwiftData
 @Model
 final class Item {
     var timestamp: Date
+	var steppercount: Int
     
-    init(timestamp: Date) {
+	init(timestamp: Date, steppercount: Int) {
         self.timestamp = timestamp
+		self.steppercount = steppercount
     }
 }

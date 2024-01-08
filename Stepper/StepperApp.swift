@@ -25,7 +25,7 @@ struct StepperApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			ContentView(step: 0)
         }
         .modelContainer(sharedModelContainer)
     }
